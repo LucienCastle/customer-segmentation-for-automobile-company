@@ -1,0 +1,1898 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Raw_data.xlsx
+Query=`CustomerDemographic$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="customer_id" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="first_name" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="last_name" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="gender" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="past_3_years_bike_related_purchases" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="DOB" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="job_title" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="job_industry_category" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="wealth_segment" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="deceased_indicator" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="default" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="owns_car" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="V_String" />
+            <Field name="tenure" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F14" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F15" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F16" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F17" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F18" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F19" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F20" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F21" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F22" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F23" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F24" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F25" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F26" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F27" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F28" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F29" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F30" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F31" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F32" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F33" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F34" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F35" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F36" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F37" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F38" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F39" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F40" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F41" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F42" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F43" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F44" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F45" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F46" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F47" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F48" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F49" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F50" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F51" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F52" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F53" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F54" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F55" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F56" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F57" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F58" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F59" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F60" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F61" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F62" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F63" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F64" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F65" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F66" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F67" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F68" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F69" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F70" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F71" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F72" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F73" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F74" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F75" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F76" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F77" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F78" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F79" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F80" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F81" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F82" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F83" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F84" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F85" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F86" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F87" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F88" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F89" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F90" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F91" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F92" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F93" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F94" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F95" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F96" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F97" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F98" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F99" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F100" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F101" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F102" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F103" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F104" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F105" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F106" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F107" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F108" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F109" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F110" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F111" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F112" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F113" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F114" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F115" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F116" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F117" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F118" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F119" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F120" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F121" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F122" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F123" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F124" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F125" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F126" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F127" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F128" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F129" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F130" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F131" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F132" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F133" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F134" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F135" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F136" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F137" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F138" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F139" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F140" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F141" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F142" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F143" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F144" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F145" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F146" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F147" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F148" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F149" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F150" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F151" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F152" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F153" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F154" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F155" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F156" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F157" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F158" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F159" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F160" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F161" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F162" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F163" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F164" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F165" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F166" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F167" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F168" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F169" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F170" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F171" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F172" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F173" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F174" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F175" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F176" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F177" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F178" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F179" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F180" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F181" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F182" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F183" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F184" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F185" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F186" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F187" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F188" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F189" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F190" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F191" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F192" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F193" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F194" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F195" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F196" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F197" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F198" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F199" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F200" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F201" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F202" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F203" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F204" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F205" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F206" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F207" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F208" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F209" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F210" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F211" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F212" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F213" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F214" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F215" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F216" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F217" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F218" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F219" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F220" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F221" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F222" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F223" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F224" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F225" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F226" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F227" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F228" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F229" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F230" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F231" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F232" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F233" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F234" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F235" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F236" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F237" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F238" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F239" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F240" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F241" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F242" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F243" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F244" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F245" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F246" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F247" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F248" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F249" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F250" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F251" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F252" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F253" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F254" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+            <Field name="F256" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerDemographic$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="customer_id" selected="True" />
+            <SelectField field="first_name" selected="True" />
+            <SelectField field="last_name" selected="True" />
+            <SelectField field="gender" selected="True" />
+            <SelectField field="past_3_years_bike_related_purchases" selected="True" />
+            <SelectField field="DOB" selected="True" />
+            <SelectField field="job_title" selected="True" />
+            <SelectField field="job_industry_category" selected="True" />
+            <SelectField field="wealth_segment" selected="True" />
+            <SelectField field="deceased_indicator" selected="True" />
+            <SelectField field="owns_car" selected="True" />
+            <SelectField field="tenure" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="306" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([last_name]) THEN 'None' ELSE [last_name] ENDIF" field="last_name" size="255" type="V_String" />
+            <FormulaField expression="IF IsNull([job_title]) THEN 'Missing' ELSE [job_title] ENDIF" field="job_title" size="255" type="V_String" />
+            <FormulaField expression="IF [job_industry_category] == 'n/a' THEN 'Missing' ELSE [job_industry_category] ENDIF" field="job_industry_category" size="255" type="V_String" />
+            <FormulaField expression="Switch([gender], [gender], 'M', 'Male', 'F', 'Female', 'Femal', 'Female', 'U', Null())" field="gender" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>last_name = IF IsNull([last_name]) THEN 'None' ELSE [last_name] ENDIF
+job_title ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="582" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff(DateTimeToday(), [DOB], 'year')" field="Age" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Age = DateTimeDiff(DateTimeToday(), [DOB], 'year')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="414" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([DOB]) AND !IsNull([gender])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([DOB]) AND !IsNull([gender])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="714" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Sumit\Desktop\Alteryx-Auto-Cleaned\Customer-Demographics.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer-Demographics.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Raw_data.xlsx
+Query=`CustomerAddress$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="customer_id" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="address" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="V_String" />
+            <Field name="postcode" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="state" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="V_String" />
+            <Field name="country" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="V_String" />
+            <Field name="property_valuation" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F7" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F8" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F9" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F10" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F11" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F12" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F13" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F14" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F15" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F16" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F17" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F18" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F19" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F20" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F21" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F22" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F23" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F24" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F25" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+            <Field name="F26" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`CustomerAddress$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="customer_id" selected="True" />
+            <SelectField field="address" selected="True" />
+            <SelectField field="postcode" selected="True" />
+            <SelectField field="state" selected="True" />
+            <SelectField field="country" selected="True" />
+            <SelectField field="property_valuation" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="282" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>customer_id</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2023-10-23 23:48:25</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2023-10-23 23:48:25</StartDate>
+              <EndDate>2023-10-23 23:48:25</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([customer_id])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="426" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Switch([state], [state], 'New South Wales', 'NSW', 'Victoria', 'VIC')" field="state" size="255" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[state = Switch([state], [state], 'New South Wales', 'NSW', 'Victoria', 'VIC')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="798" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="customer_id" />
+            <Field field="customer_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="customer_id" />
+            <Field field="customer_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_customer_id" selected="True" input="Left_" />
+                <SelectField field="Left_first_name" selected="True" input="Left_" />
+                <SelectField field="Left_last_name" selected="True" input="Left_" />
+                <SelectField field="Left_gender" selected="True" input="Left_" />
+                <SelectField field="Left_past_3_years_bike_related_purchases" selected="True" input="Left_" />
+                <SelectField field="Left_DOB" selected="True" input="Left_" type="Date" size="10" />
+                <SelectField field="Left_job_title" selected="True" input="Left_" />
+                <SelectField field="Left_job_industry_category" selected="True" input="Left_" />
+                <SelectField field="Left_wealth_segment" selected="True" input="Left_" />
+                <SelectField field="Left_deceased_indicator" selected="True" input="Left_" />
+                <SelectField field="Left_owns_car" selected="True" input="Left_" />
+                <SelectField field="Left_tenure" selected="True" input="Left_" />
+                <SelectField field="Left_Age" selected="True" input="Left_" />
+                <SelectField field="Right_transaction_id" selected="True" input="Right_" />
+                <SelectField field="Right_product_id" selected="True" input="Right_" />
+                <SelectField field="Right_customer_id" selected="False" rename="Right_customer_id" input="Right_" />
+                <SelectField field="Right_transaction_date" selected="True" input="Right_" />
+                <SelectField field="Right_online_order" selected="True" input="Right_" />
+                <SelectField field="Right_order_status" selected="True" input="Right_" />
+                <SelectField field="Right_brand" selected="True" input="Right_" />
+                <SelectField field="Right_product_line" selected="True" input="Right_" />
+                <SelectField field="Right_product_class" selected="True" input="Right_" />
+                <SelectField field="Right_product_size" selected="True" input="Right_" />
+                <SelectField field="Right_list_price" selected="True" input="Right_" />
+                <SelectField field="Right_standard_cost" selected="True" input="Right_" />
+                <SelectField field="Right_product_first_sold_date" selected="True" input="Right_" />
+                <SelectField field="Right_profit" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="570" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Sumit\Desktop\Alteryx-Auto-Cleaned\Customer-Addresses.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer-Addresses.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Raw_data.xlsx
+Query=`NewCustomerList$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="first_name" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="last_name" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="gender" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="past_3_years_bike_related_purchases" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="DOB" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="job_title" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="job_industry_category" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="wealth_segment" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="deceased_indicator" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="owns_car" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="tenure" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="address" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="postcode" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="state" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="country" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="property_valuation" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="V_String" />
+            <Field name="F17" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F18" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F19" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F20" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F21" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="Rank" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="Value" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F24" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F25" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F26" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F27" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F28" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F29" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F30" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F31" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F32" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F33" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F34" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F35" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F36" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F37" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F38" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F39" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F40" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F41" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F42" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F43" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F44" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F45" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F46" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F47" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F48" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F49" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F50" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F51" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F52" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F53" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F54" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F55" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F56" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F57" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F58" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F59" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F60" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F61" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F62" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F63" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F64" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F65" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F66" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F67" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F68" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F69" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F70" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F71" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F72" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F73" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F74" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F75" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F76" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F77" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F78" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F79" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F80" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F81" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F82" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F83" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F84" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F85" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F86" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F87" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F88" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F89" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F90" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F91" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F92" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F93" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F94" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F95" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F96" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F97" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F98" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F99" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F100" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F101" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F102" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F103" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F104" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F105" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F106" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F107" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F108" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F109" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F110" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F111" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F112" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F113" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F114" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F115" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F116" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F117" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F118" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F119" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F120" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F121" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F122" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F123" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F124" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F125" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F126" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F127" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F128" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F129" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F130" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F131" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F132" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F133" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F134" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F135" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F136" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F137" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F138" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F139" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F140" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F141" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F142" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F143" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F144" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F145" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F146" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F147" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F148" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F149" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F150" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F151" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F152" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F153" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F154" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F155" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F156" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F157" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F158" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F159" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F160" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F161" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F162" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F163" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F164" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F165" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F166" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F167" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F168" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F169" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F170" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F171" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F172" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F173" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F174" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F175" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F176" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F177" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F178" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F179" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F180" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F181" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F182" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F183" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F184" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F185" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F186" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F187" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F188" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F189" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F190" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F191" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F192" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F193" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F194" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F195" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F196" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F197" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F198" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F199" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F200" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F201" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F202" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F203" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F204" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F205" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F206" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F207" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F208" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F209" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F210" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F211" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F212" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F213" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F214" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F215" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F216" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F217" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F218" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F219" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F220" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F221" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F222" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F223" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F224" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F225" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F226" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F227" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F228" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F229" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F230" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F231" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F232" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F233" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F234" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F235" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F236" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F237" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F238" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F239" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F240" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F241" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F242" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F243" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F244" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F245" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F246" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F247" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F248" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F249" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F250" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F251" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F252" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F253" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F254" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+            <Field name="F256" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`NewCustomerList$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="first_name" selected="True" />
+            <SelectField field="last_name" selected="True" />
+            <SelectField field="gender" selected="True" />
+            <SelectField field="past_3_years_bike_related_purchases" selected="True" />
+            <SelectField field="DOB" selected="True" />
+            <SelectField field="job_title" selected="True" />
+            <SelectField field="job_industry_category" selected="True" />
+            <SelectField field="wealth_segment" selected="True" />
+            <SelectField field="deceased_indicator" selected="True" />
+            <SelectField field="owns_car" selected="True" />
+            <SelectField field="tenure" selected="True" />
+            <SelectField field="address" selected="True" />
+            <SelectField field="postcode" selected="True" />
+            <SelectField field="state" selected="True" />
+            <SelectField field="country" selected="True" />
+            <SelectField field="property_valuation" selected="True" />
+            <SelectField field="Rank" selected="True" />
+            <SelectField field="Value" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="258" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([first_name]) AND !IsNull([DOB])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([first_name]) AND !IsNull([DOB])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="378" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([last_name]) THEN 'None' ELSE [last_name] ENDIF" field="last_name" size="255" type="V_String" />
+            <FormulaField expression="IF IsNull([job_title]) THEN 'Missing' ELSE [job_title] ENDIF" field="job_title" size="255" type="V_String" />
+            <FormulaField expression="IF [job_industry_category] == 'n/a' THEN 'Missing' ELSE [job_industry_category] ENDIF" field="job_industry_category" size="255" type="V_String" />
+            <FormulaField expression="DateTimeDiff(DateTimeToday(), [DOB], 'year')" field="age" size="8" type="Int64" />
+            <FormulaField expression="(FLOOR([age]/10)+1)*10" field="age_group" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>last_name = IF IsNull([last_name]) THEN 'None' ELSE [last_name] ENDIF
+job_title ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Sumit\Desktop\Alteryx-Auto-Cleaned\New-Customers.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>New-Customers.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Raw_data.xlsx
+Query=`Transactions$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="transaction_id" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="product_id" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="customer_id" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="transaction_date" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Date" />
+            <Field name="online_order" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Bool" />
+            <Field name="order_status" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="brand" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="product_line" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="product_class" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="product_size" size="255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="V_String" />
+            <Field name="list_price" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="standard_cost" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="product_first_sold_date" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F14" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F15" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F16" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F17" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F18" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F19" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F20" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F21" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F22" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F23" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F24" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F25" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F26" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F27" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F28" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F29" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F30" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F31" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F32" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F33" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F34" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F35" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F36" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F37" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F38" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F39" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F40" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F41" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F42" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F43" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F44" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F45" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F46" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F47" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F48" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F49" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F50" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F51" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F52" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F53" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F54" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F55" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F56" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F57" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F58" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F59" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F60" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F61" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F62" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F63" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F64" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F65" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F66" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F67" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F68" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F69" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F70" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F71" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F72" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F73" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F74" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F75" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F76" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F77" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F78" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F79" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F80" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F81" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F82" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F83" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F84" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F85" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F86" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F87" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F88" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F89" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F90" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F91" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F92" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F93" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F94" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F95" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F96" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F97" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F98" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F99" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F100" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F101" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F102" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F103" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F104" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F105" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F106" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F107" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F108" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F109" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F110" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F111" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F112" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F113" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F114" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F115" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F116" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F117" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F118" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F119" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F120" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F121" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F122" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F123" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F124" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F125" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F126" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F127" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F128" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F129" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F130" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F131" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F132" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F133" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F134" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F135" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F136" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F137" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F138" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F139" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F140" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F141" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F142" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F143" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F144" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F145" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F146" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F147" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F148" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F149" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F150" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F151" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F152" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F153" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F154" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F155" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F156" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F157" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F158" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F159" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F160" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F161" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F162" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F163" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F164" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F165" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F166" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F167" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F168" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F169" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F170" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F171" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F172" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F173" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F174" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F175" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F176" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F177" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F178" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F179" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F180" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F181" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F182" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F183" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F184" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F185" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F186" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F187" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F188" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F189" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F190" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F191" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F192" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F193" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F194" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F195" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F196" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F197" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F198" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F199" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F200" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F201" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F202" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F203" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F204" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F205" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F206" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F207" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F208" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F209" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F210" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F211" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F212" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F213" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F214" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F215" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F216" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F217" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F218" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F219" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F220" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F221" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F222" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F223" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F224" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F225" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F226" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F227" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F228" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F229" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F230" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F231" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F232" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F233" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F234" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F235" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F236" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F237" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F238" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F239" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F240" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F241" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F242" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F243" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F244" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F245" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F246" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F247" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F248" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F249" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F250" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F251" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F252" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F253" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F254" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F255" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+            <Field name="F256" source="File: C:\Users\Sumit\Desktop\Raw_data.xlsx|||`Transactions$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="transaction_id" selected="True" />
+            <SelectField field="product_id" selected="True" />
+            <SelectField field="customer_id" selected="True" />
+            <SelectField field="transaction_date" selected="True" />
+            <SelectField field="online_order" selected="True" />
+            <SelectField field="order_status" selected="True" />
+            <SelectField field="brand" selected="True" />
+            <SelectField field="product_line" selected="True" />
+            <SelectField field="product_class" selected="True" />
+            <SelectField field="product_size" selected="True" />
+            <SelectField field="list_price" selected="True" />
+            <SelectField field="standard_cost" selected="True" />
+            <SelectField field="product_first_sold_date" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="234" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([transaction_id]) AND !IsNull([brand])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([transaction_id]) AND !IsNull([brand])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="If IsNull([online_order]) THEN 'True' ElSE [online_order] ENDIF" field="online_order" size="1" type="Bool" />
+            <FormulaField expression="[list_price] - [standard_cost]" field="profit" size="4" type="Float" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>online_order = If IsNull([online_order]) THEN 'True' ElSE [online_order] ENDIF
+p...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="762" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Sumit\Desktop\Alteryx-Auto-Cleaned\Transactions.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Transactions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="798" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="transaction_date" action="Max" rename="Max_transaction_date" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1038" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_customer_id" selected="True" input="Target_" />
+                <SelectField field="Target_Max_transaction_date" selected="True" input="Target_" />
+                <SelectField field="Target_Sum_profit" selected="True" input="Target_" />
+                <SelectField field="Target_Count" selected="True" input="Target_" />
+                <SelectField field="Source_Max_transaction_date" selected="True" rename="Source_Max_transaction_date" input="Source_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="990" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="customer_id" action="GroupBy" rename="customer_id" />
+            <SummarizeField field="transaction_date" action="Max" rename="Max_transaction_date" />
+            <SummarizeField field="profit" action="Sum" rename="Sum_profit" />
+            <SummarizeField field="product_id" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1146" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([Source_Max_transaction_date], [Max_transaction_date], 'days')" field="recency" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>recency = DateTimeDiff([Source_Max_transaction_date], [Max_transaction_date], 'd...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1242" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Sum_profit" action="Percentile" rename="Percentile_Sum_profit">
+              <Percentile value="0.25" />
+            </SummarizeField>
+            <SummarizeField field="Sum_profit" action="Percentile" rename="Percentile_Sum_profit">
+              <Percentile value="0.5" />
+            </SummarizeField>
+            <SummarizeField field="Sum_profit" action="Percentile" rename="Percentile_Sum_profit">
+              <Percentile value="0.75" />
+            </SummarizeField>
+            <SummarizeField field="Count" action="Percentile" rename="Percentile_Count">
+              <Percentile value="0.25" />
+            </SummarizeField>
+            <SummarizeField field="Count" action="Percentile" rename="Percentile_Count">
+              <Percentile value="0.5" />
+            </SummarizeField>
+            <SummarizeField field="Count" action="Percentile" rename="Percentile_Count">
+              <Percentile value="0.75" />
+            </SummarizeField>
+            <SummarizeField field="recency" action="Percentile" rename="Percentile_recency">
+              <Percentile value="0.25" />
+            </SummarizeField>
+            <SummarizeField field="recency" action="Percentile" rename="Percentile_recency">
+              <Percentile value="0.5" />
+            </SummarizeField>
+            <SummarizeField field="recency" action="Percentile" rename="Percentile_recency">
+              <Percentile value="0.75" />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1350" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_customer_id" selected="True" input="Target_" />
+                <SelectField field="Target_Sum_profit" selected="True" input="Target_" />
+                <SelectField field="Target_Count" selected="True" input="Target_" />
+                <SelectField field="Target_recency" selected="True" input="Target_" />
+                <SelectField field="Source_Percentile_Sum_profit" selected="True" input="Source_" />
+                <SelectField field="Source_Percentile_Sum_profit2" selected="True" input="Source_" />
+                <SelectField field="Source_Percentile_Sum_profit3" selected="True" input="Source_" />
+                <SelectField field="Source_Percentile_Count" selected="True" input="Source_" />
+                <SelectField field="Source_Percentile_Count2" selected="True" input="Source_" />
+                <SelectField field="Source_Percentile_Count3" selected="True" input="Source_" />
+                <SelectField field="Source_Percentile_recency" selected="True" input="Source_" />
+                <SelectField field="Source_Percentile_recency2" selected="True" input="Source_" />
+                <SelectField field="Source_Percentile_recency3" selected="True" input="Source_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1470" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [recency] &gt; [Percentile_recency3] THEN 1 ELSEIF Between([recency], [Percentile_recency2], [Percentile_recency3]) THEN 2 ELSEIF Between([recency], [Percentile_recency], [Percentile_recency2]) THEN 3 ELSE 4 ENDIF" field="r_quartile" size="8" type="Int64" />
+            <FormulaField expression="IF [Count] &gt; [Percentile_Count3] THEN 4 ELSEIF Between([Count], [Percentile_Count2], [Percentile_Count3]) THEN 3 ELSEIF Between([Count], [Percentile_Count], [Percentile_Count2]) THEN 2 ELSE 1 ENDIF" field="f_quartile" size="8" type="Int64" />
+            <FormulaField expression="IF [Sum_profit] &gt; [Percentile_Sum_profit3] THEN 4 ELSEIF Between([Sum_profit], [Percentile_Sum_profit2], [Percentile_Sum_profit3]) THEN 3 ELSEIF Between([Sum_profit], [Percentile_Sum_profit], [Percentile_Sum_profit2]) THEN 2 ELSE 1 ENDIF" field="m_quartile" size="8" type="Int64" />
+            <FormulaField expression="100*[r_quartile] + 10*[f_quartile] + [m_quartile]" field="rfm_score" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>r_quartile = IF [recency] &gt; [Percentile_recency3] THEN 1 ELSEIF Between([recency...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1566" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="customer_id" selected="True" />
+            <SelectField field="Sum_profit" selected="True" />
+            <SelectField field="Count" selected="True" />
+            <SelectField field="recency" selected="True" />
+            <SelectField field="r_quartile" selected="True" />
+            <SelectField field="f_quartile" selected="True" />
+            <SelectField field="m_quartile" selected="True" />
+            <SelectField field="rfm_score" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1638" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="customer_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="customer_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_customer_id" selected="True" input="Left_" />
+                <SelectField field="Left_first_name" selected="True" input="Left_" />
+                <SelectField field="Left_last_name" selected="True" input="Left_" />
+                <SelectField field="Left_gender" selected="True" input="Left_" />
+                <SelectField field="Left_past_3_years_bike_related_purchases" selected="True" input="Left_" />
+                <SelectField field="Left_DOB" selected="True" input="Left_" />
+                <SelectField field="Left_job_title" selected="True" input="Left_" />
+                <SelectField field="Left_job_industry_category" selected="True" input="Left_" />
+                <SelectField field="Left_wealth_segment" selected="True" input="Left_" />
+                <SelectField field="Left_deceased_indicator" selected="True" input="Left_" />
+                <SelectField field="Left_owns_car" selected="True" input="Left_" />
+                <SelectField field="Left_tenure" selected="True" input="Left_" />
+                <SelectField field="Left_Age" selected="True" input="Left_" />
+                <SelectField field="Left_transaction_id" selected="True" input="Left_" />
+                <SelectField field="Left_product_id" selected="True" input="Left_" />
+                <SelectField field="Left_transaction_date" selected="True" input="Left_" />
+                <SelectField field="Left_online_order" selected="True" input="Left_" />
+                <SelectField field="Left_order_status" selected="True" input="Left_" />
+                <SelectField field="Left_brand" selected="True" input="Left_" />
+                <SelectField field="Left_product_line" selected="True" input="Left_" />
+                <SelectField field="Left_product_class" selected="True" input="Left_" />
+                <SelectField field="Left_product_size" selected="True" input="Left_" />
+                <SelectField field="Left_list_price" selected="True" input="Left_" />
+                <SelectField field="Left_standard_cost" selected="True" input="Left_" />
+                <SelectField field="Left_product_first_sold_date" selected="True" input="Left_" />
+                <SelectField field="Left_profit" selected="True" input="Left_" />
+                <SelectField field="Right_customer_id" selected="False" rename="Right_customer_id" input="Right_" />
+                <SelectField field="Right_Sum_profit" selected="True" input="Right_" />
+                <SelectField field="Right_Count" selected="True" input="Right_" />
+                <SelectField field="Right_recency" selected="True" input="Right_" />
+                <SelectField field="Right_r_quartile" selected="True" input="Right_" />
+                <SelectField field="Right_f_quartile" selected="True" input="Right_" />
+                <SelectField field="Right_m_quartile" selected="True" input="Right_" />
+                <SelectField field="Right_rfm_score" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1746" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [rfm_score] &gt;= 444 THEN 'Platinum Customer' ELSEIF &#xA;Between([rfm_score], 433, 444) THEN 'Very Loyal' ELSEIF &#xA;Between([rfm_score], 421, 433) THEN 'Becoming Loyal' ELSEIF Between([rfm_score], 344, 421) THEN 'Recent Customer' ELSEIF Between([rfm_score], 323, 344) THEN 'Potential Customer' ELSEIF&#xA;Between([rfm_score], 311, 323) THEN&#xA;'Late Bloomer' ELSEIF &#xA;Between([rfm_score], 224, 311) THEN 'Loosing Customer' ELSEIF Between([rfm_score], 212, 224) THEN  'High Risk Customer' ELSEIF &#xA;Between([rfm_score], 124, 212) THEN 'Almost Lost Customer' ELSEIF Between([rfm_score], 112, 124) THEN 'Evasive Customer' ELSE 'Lost Customer' ENDIF" field="customer_category" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [customer_category] == 'Platinum Customer' THEN 1 ELSEIF [customer_category] == 'Very Loyal' &#xA;THEN 2 ELSEIF [customer_category] == 'Becoming Loyal' &#xA;THEN 3 ELSEIF [customer_category] == 'Recent Customer' &#xA;THEN 4 ELSEIF [customer_category] == 'Potential Customer' &#xA;THEN 5 ELSEIF [customer_category] == 'Late Bloomer' &#xA;THEN 6 ELSEIF [customer_category] == 'Loosing Customer' &#xA;THEN 7 ELSEIF [customer_category] == 'High Risk Customer' &#xA;THEN 8 ELSEIF [customer_category] == 'Almost Lost Customer' &#xA;THEN 9 ELSEIF [customer_category] == 'Evasice Customer' &#xA;THEN 10 ELSE 11 ENDIF" field="customer_tier" size="8" type="Int64" />
+            <FormulaField expression="(FLOOR([Age]/10)+1)*10" field="age_group" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>customer_category = IF [rfm_score] &gt;= 444 THEN 'Platinum Customer' ELSEIF 
+Betwe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1890" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Sumit\Desktop\Alteryx-Auto-Cleaned\Customer-RFM-Analysis.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer-RFM-Analysis.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="22" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="22" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Join" />
+      <Destination ToolID="67" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="67" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="52" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="52" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="64" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="64" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Join" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>auto--data-cleaner</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="89ff8a00-9370-4870-ad56-57cc3ba89d9e" />
+      <Telemetry>
+        <PreviousWorkflowId value="1ed30a58-9c83-47ea-89ff-af8e4850dbfd" />
+        <OriginWorkflowId value="1ed30a58-9c83-47ea-89ff-af8e4850dbfd" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
